@@ -6,21 +6,13 @@ import Navbar from "@/components/Navbar/Navbar";
 import Partners from "@/components/Partners/Partners";
 import Platform from "@/components/Platform/Platform";
 import Roadmap from "@/components/Roadmap/Roadmap";
-import Works from "@/components/Works/Works";
+import HomeMain from "@/components/Home/HomeMain";
 
 
 export default function Home() {
   return (
    <div>
-     <Navbar />
-     <Hero />
-     <Partners />
-     <Works />
-     <Platform />
-     <Build />
-     <Roadmap />
-     <Accord />
-     <Footer />
+     <HomeMain />
    </div>
   );
 }
